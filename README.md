@@ -25,7 +25,7 @@ Social media language contains subtle markers of mental health states, but manua
 DELETE FROM mental_health_texts 
 WHERE LENGTH(statement) < 20 
 OR label NOT IN ('anxiety','depression'...);
-sql```
+```
 
 📌 **Post-cleaning dataset:**
 - 26,887 samples across 7 conditions
