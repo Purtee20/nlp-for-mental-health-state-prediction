@@ -51,19 +51,18 @@ OR label NOT IN ('anxiety','depression'...);
 ⚠️ Depression classification needs improvement (71% precision)  
 
 ## 📂 Repository Structure:  
-
-mental-health-nlp/   
-├── notebooks/  
-│   ├── EDA.ipynb  
-│   └── Model_Comparison.ipynb  
-│   └── Demo.ipynb 
-│  
-│  
-└── prototype/  
-    ├── SignIn_Screen.png  
-    └── Home_Screen.ipynb  
-    └── Chat_Screen.ipynb  
-    └── Dashboard_Screen.ipynb  
+```
+mental-health-nlp/
+├── notebooks/
+│   ├── EDA.ipynb
+│   ├── Model_Comparison.ipynb
+│   └── Demo.ipynb
+└── prototype/
+    ├── SignIn_Screen.png
+    ├── Home_Screen.ipynb
+    ├── Chat_Screen.ipynb
+    └── Dashboard_Screen.ipynb
+```
     
 ## 🏆 Research Impact:  
 - 3x faster than manual screening
