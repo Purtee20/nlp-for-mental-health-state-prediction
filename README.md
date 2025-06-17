@@ -56,8 +56,9 @@ mental-health-nlp/
 ├── notebooks/  
 │   ├── EDA.ipynb  
 │   └── Model_Comparison.ipynb  
-|   └── Demo.ipynb  
-│
+│   └── Demo.ipynb 
+│  
+│  
 └── prototype/  
     ├── SignIn_Screen.png  
     └── Home_Screen.ipynb  
