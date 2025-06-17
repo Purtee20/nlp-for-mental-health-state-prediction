@@ -32,6 +32,9 @@ OR label NOT IN ('anxiety','depression'...);
 - Class balance achieved via SMOTE
 
 📊 **Performance Metrics:**
+![image](https://github.com/user-attachments/assets/1fff2490-165b-4fb9-9d80-c88a29b3b0a0)
+*_Overall Accuracy:_* 78%
+*_Throughput:_* 10,000+ texts/minute
 
 📐 **Statistical Validation:**
 - ANOVA confirmed model significance (p < 0.01)
@@ -44,15 +47,17 @@ OR label NOT IN ('anxiety','depression'...);
 
 📂 **Repository Structure:**
 
-mental-health-nlp/  
-├── models/  
-│   ├── xgboost_v2.joblib  
-│   └── fasttext_cc.en.300.bin  
+mental-health-nlp/   
 ├── notebooks/  
 │   ├── EDA.ipynb  
 │   └── Model_Comparison.ipynb  
-└── app/  
-    └── neurobuddy_flask/  
+|   └── Demo.ipynb  
+│
+└── prototype/  
+    ├── SignIn_Screen.png
+    └── Home_Screen.ipynb
+    └── Chat_Screen.ipynb
+    └── Dashboard_Screen.ipynb
     
 🏆 **Research Impact:**
 - 3x faster than manual screening
@@ -60,6 +65,10 @@ mental-health-nlp/
 - Prototype deployed at Syracuse counseling center
 
 🧠 **Key Challenges:**
+1. *_Class Imbalance:_* Addressed via SMOTE augmentation (Personality Disorder recall improved from 55% → 67%)
+2. *_Semantic Complexity:_* Leveraged SBERT embeddings to capture nuanced emotional cues
+3. *_Real-Time Processing:_* Optimized FastText+XGBoost pipeline for <200ms predictions
+4. *_Clinical Validation:_* Achieved 89% agreement with psychologist-labeled high-risk cases
 
 🚀 **Next Steps:**
 - Multimodal integration (text + emoji analysis)
