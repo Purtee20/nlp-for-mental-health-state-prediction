@@ -33,7 +33,7 @@ OR label NOT IN ('anxiety','depression'...);
 
 ## 📊 Performance Metrics:  
 ![image](https://github.com/user-attachments/assets/1fff2490-165b-4fb9-9d80-c88a29b3b0a0)  
-*_Overall Accuracy:_* 78%
+*_Overall Accuracy:_* 78%  
 *_Throughput:_* 10,000+ texts/minute  
 
 ## 📐 Statistical Validation:  
@@ -41,8 +41,8 @@ OR label NOT IN ('anxiety','depression'...);
 - Cohen's κ = 0.71 for inter-rater reliability  
 
 ## 💡 Key Findings:  
-✅ Anxiety detection: 84% precision
-✅ Normal vs. disorder classification: 97% F1
+✅ Anxiety detection: 84% precision  
+✅ Normal vs. disorder classification: 97% F1  
 ⚠️ Depression classification needs improvement (71% precision)  
 
 ## 📂 Repository Structure:  
