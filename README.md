@@ -1,7 +1,12 @@
 ## 🧠 Mental Health State Prediction via NLP  
 **Detecting Psychological Conditions Through Language Analysis**  
 
-**Tools**: Python • FastText • XGBoost • Google Colab • Scikit-learn  
+**Tools**:  
+- Python  
+- FastText  
+- XGBoost  
+- Google Colab  
+- Scikit-learn  
 
 ## 📌 Research Problem  
 Social media language contains subtle markers of mental health states, but manual monitoring doesn't scale. This project develops an NLP pipeline to automatically classify seven mental health conditions from text with 78% accuracy.  
