@@ -59,9 +59,9 @@ mental-health-nlp/
 │   └── Demo.ipynb
 └── prototype/
     ├── SignIn_Screen.png
-    ├── Home_Screen.ipynb
-    ├── Chat_Screen.ipynb
-    └── Dashboard_Screen.ipynb
+    ├── Home_Screen.png
+    ├── Chat_Screen.png
+    └── Dashboard_Screen.png
 ```
     
 ## 🏆 Research Impact:  
